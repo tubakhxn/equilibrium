@@ -1,4 +1,4 @@
-# Hand Fish
+# Equilibrium
 
 A hand-controlled 3D fish school that swims through a real-time water surface on top of your live webcam.
 
