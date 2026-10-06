@@ -1,0 +1,20 @@
+{
+  "name": "gesture-fish",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hand-controlled 3D school of colorful fish swimming along a spline around you (Three.js + MediaPipe)",
+  "scripts": {
+    "postinstall": "node scripts/setup.mjs",
+    "dev": "vite --host",
+    "build": "node scripts/setup.mjs && vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.21",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
